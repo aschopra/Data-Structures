@@ -1,1 +1,1 @@
-Hash Table data structure implementation with chaining to resolve collisions.
+Hash Table implementation with chaining to resolve collisions.
