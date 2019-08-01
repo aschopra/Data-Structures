@@ -2,9 +2,9 @@ Binary Search Tree of integers. Insert() and remove() operate in O(log N) time.
 However, after a number of insertions and removals, this running time degenerates
 to O(N) as the tree becomes more and more unbalanced. 
 
--Bug faced during implementation but RESOLVED:
+-Bug faced during implementation, but RESOLVED:
 	-In my insert(Node* temp, int data) helper function, 
-	I previously prototyped it like this insert(Node* root, int data).
+	I previously prototyped it like this: insert(Node* root, int data).
 	I mistakingly thought that the local root variable inside of this
 	function was the same as the private instance variable, root, of the
 	class. Because of this, everytime I tried to print the BST, I was
