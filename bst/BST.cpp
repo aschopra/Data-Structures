@@ -35,7 +35,7 @@ void BST::insert(int data) {
 void BST::insert(Node* temp, int data) {
 	// check for empty tree to set root
 	if (root == NULL) {
-		root = createNode(data); // problem in here is use local variable of root
+		root = createNode(data);
 	} else if (data < temp->data) {
 		if (temp->left != NULL) {
 			// recurse down left sub-tree

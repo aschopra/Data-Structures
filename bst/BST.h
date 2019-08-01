@@ -12,7 +12,7 @@ private:
 	Node* root;
 	Node* createNode(int data);
 	void insert(Node* temp, int data);
-	void printInOrder(Node* temp); // in-order traversal
+	void printInOrder(Node* temp);
 	Node* findNode(int data);
 	Node* findNode(Node* temp, int data);
 	int getMin(Node* temp);
